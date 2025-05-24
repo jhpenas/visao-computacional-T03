@@ -11,7 +11,7 @@ A ideia principal é detectar os cantos da tabela, aplicar uma transformação p
 
 ## Resultado após transformação perspectiva
 
-![Imagem Extraída](warped.jpg)
+![Imagem Extraída](tabela_extraida.jpg)
 
 ---
 
