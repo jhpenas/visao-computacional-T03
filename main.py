@@ -131,7 +131,7 @@ destination = np.array([
 M = cv2.getPerspectiveTransform(ordered_points, destination)
 
 # Aplica a transformação perspectiva para obter a imagem retificada
-warped = cv2.warpPerspective(image, M, (max_width, max_height))
+warped = cv2.warpPerspective(image_original.copy(), M, (max_width, max_height))
 
 display_image(image_original, figsize=(8, 8), title='Imagem Original')
 display_image(warped, figsize=(8, 8), title='Tabela Extraída')
