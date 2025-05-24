@@ -7,7 +7,7 @@ A ideia principal é detectar os cantos da tabela, aplicar uma transformação p
 
 ## Imagem original
 
-![Imagem Original](foto.jpeg)
+![Imagem Original](image_original.jpeg)
 
 ## Resultado após transformação perspectiva
 
