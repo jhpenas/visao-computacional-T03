@@ -136,6 +136,6 @@ warped = cv2.warpPerspective(image_original.copy(), M, (max_width, max_height))
 display_image(image_original, figsize=(8, 8), title='Imagem Original')
 display_image(warped, figsize=(8, 8), title='Tabela Extraída')
 
-cv2.imwrite('warped.jpg', warped)
+cv2.imwrite('tabela_extraida.jpg', warped)
 
 print(f'Tempo decorrido: {datetime.now() - start}')
